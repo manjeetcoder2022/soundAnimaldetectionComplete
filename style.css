@@ -1,0 +1,87 @@
+#body{
+    background-color: rgb(109, 224, 186);
+    text-align: center;
+}
+
+
+
+
+
+#text_1{
+    font-family: 'Bungee Spice', cursive;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(233, 96, 61);
+font-weight: bold;
+font-size: 22px;
+
+}
+
+#text_2{
+    color: rgb(238, 170, 131);
+    font-size: 15px;
+}
+#text_3{
+    background-color: burlywood;
+    font-family: 'Ms Madi', cursive;
+    border-radius: 5px;
+    animation-name: moving;
+animation-duration:4s;
+position: relative;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes moving {
+   0%{
+    left: 0;top: 0;
+   }
+   25%{
+    left: 20px;
+    top: 5px;
+   }
+   50%{
+    left: 15px;
+    top: 10px;
+   }
+   75%{
+    left: 10px;
+    top: 0px;
+   }
+}
+#lion{
+    float: right;
+}
+#cat{
+    float: left;
+}
+H4{
+    color: rgb(197, 163, 49);
+}
+H4 span{
+    color: red;
+}
+#start{
+    width: 150px;
+    height:100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#text_4{
+   
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ background-color: gray;
+ line-height: 3;
+ text-shadow: 12px 8px 8px rgb(104, 129, 122);
+ color: antiquewhite;
+}
+#image_dedecte{
+    width: 250px;
+    height: 350;
+    border: 2px solid black;
+}
